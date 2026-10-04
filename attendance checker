@@ -1,0 +1,21 @@
+print("ATTENDANCE CHECKER")
+
+students = int(input("Number of students: "))
+
+present = 0
+absent = 0
+
+for i in range(students):
+    name = input("\nStudent name: ")
+    status = input("Present or Absent? ").lower()
+
+    if status == "present":
+        present += 1
+    elif status == "absent":
+        absent += 1
+    else:
+        print("Invalid status.")
+
+print("\nATTENDANCE SUMMARY")
+print("Present:", present)
+print("Absent:", absent)
