@@ -1,0 +1,10 @@
+print("PAYROLL CALCULATOR")
+
+name = input("Employee Name: ").title()
+hours = float(input("Hours Worked: "))
+rate = float(input("Hourly Rate: "))
+
+salary = hours * rate
+
+print("\nEmployee:", name)
+print("Gross Salary: ₱", format(salary, ".2f"))
