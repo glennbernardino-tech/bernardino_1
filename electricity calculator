@@ -1,0 +1,28 @@
+print("ELECTRICITY CALCULATOR")
+
+print("1. Calculate Power")
+print("2. Calculate Voltage")
+print("3. Calculate Current")
+
+choice = input("Choose: ")
+
+if choice == "1":
+    voltage = float(input("Voltage: "))
+    current = float(input("Current: "))
+    power = voltage * current
+    print("Power:", power, "W")
+
+elif choice == "2":
+    power = float(input("Power: "))
+    current = float(input("Current: "))
+    voltage = power / current
+    print("Voltage:", voltage, "V")
+
+elif choice == "3":
+    power = float(input("Power: "))
+    voltage = float(input("Voltage: "))
+    current = power / voltage
+    print("Current:", current, "A")
+
+else:
+    print("Invalid choice.")
