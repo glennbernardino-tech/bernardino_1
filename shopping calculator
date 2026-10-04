@@ -1,0 +1,18 @@
+print("SHOPPING CALCULATOR")
+
+item1 = input("Item 1: ")
+price1 = float(input("Price: "))
+
+item2 = input("Item 2: ")
+price2 = float(input("Price: "))
+
+item3 = input("Item 3: ")
+price3 = float(input("Price: "))
+
+total = price1 + price2 + price3
+
+print("\nShopping Receipt")
+print(item1, "- ₱", format(price1, ".2f"))
+print(item2, "- ₱", format(price2, ".2f"))
+print(item3, "- ₱", format(price3, ".2f"))
+print("Total: ₱", format(total, ".2f"))
