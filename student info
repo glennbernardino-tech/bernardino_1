@@ -1,0 +1,12 @@
+print("STUDENT INFORMATION")
+
+name = input("Name: ").title()
+age = int(input("Age: "))
+grade = input("Grade Level: ")
+section = input("Section: ")
+
+print("\nStudent Information")
+print("Name:", name)
+print("Age:", age)
+print("Grade Level:", grade)
+print("Section:", section)
