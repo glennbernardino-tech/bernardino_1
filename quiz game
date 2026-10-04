@@ -1,0 +1,21 @@
+print("SIMPLE QUIZ")
+
+score = 0
+
+answer = input("What is 5 + 5?\nA. 8\nB. 10\nC. 15\nAnswer: ").upper()
+
+if answer == "B":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+
+answer = input("\nWhat is the capital of the Philippines?\nA. Cebu\nB. Manila\nC. Davao\nAnswer: ").upper()
+
+if answer == "B":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+
+print("\nYour score:", score, "/ 2")
